@@ -58,15 +58,6 @@ Ensure you have the following installed on your system:
 
 ---
 
-## Requirements
-The required dependencies are listed in `requirements.txt
-To install all dependencies:
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## Usage
 1. **Enter the product name** in the search box.
 2. **Select the desired product** from the dropdown.
