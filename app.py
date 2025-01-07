@@ -107,7 +107,23 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 # App title
 st.title("📦 Warehouse Forecast")
-st.write("Enter the product name and the month to get the required quantity for the warehouse.")
+# Styled introduction text (rectangular design)
+st.markdown("""
+    <div style="
+        background-color: #C6E9F9;
+        padding: 20px;
+        border-radius: 15px;
+        border: 2px solid #FFA500;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: #333333;
+        margin: 10px;
+    ">
+        📋 Enter the product name and the month to get the required quantity for the warehouse.
+    </div>
+""", unsafe_allow_html=True)
 
 # Dynamic input for product name with suggestions, sorted alphabetically
 search_query = st.text_input("🔍 Type the product name:")
