@@ -8,8 +8,6 @@ from tensorflow.keras.models import Sequential, save_model
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ReduceLROnPlateau
-from tensorflow.keras.losses import Huber
-from tensorflow.keras.regularizers import l2
 import joblib
 
 
